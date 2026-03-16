@@ -1,3 +1,4 @@
+//importa la libreria axios, que sirve para hacer pedidos a internet (HTTP requests).
 const axios = require("axios");
 
 async function obtenerMoneda(pais){

@@ -1,29 +1,3 @@
-function parsearUrl(direccion){
+const URL = require("./modules/url");
 
- try{
-
-  let url = new URL(direccion);
-
-  let parametros = {};
-
-  url.searchParams.forEach((valor,clave)=>{
-   parametros[clave] = valor;
-  });
-
-  return {
-   host: url.origin,
-   pathname: url.pathname,
-   parametros: parametros
-  };
-
- }catch(error){
-
-  console.log("Error:", error.message);
-
- }
-
-}
-
-let objeto = parsearUrl("url incorrecta");
-
-console.log(objeto);
+console.log(URL.parsearUrl("http://www.oart.edu.ar:a/alumnos/index.htm?curso=2022&mes=mayo"));
