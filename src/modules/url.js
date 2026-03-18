@@ -27,6 +27,4 @@ function parsearUrl(direccion){
 
 }
 
-module.exports = {
- parsearUrl
-};
+export  {parsearUrl};

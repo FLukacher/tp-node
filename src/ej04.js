@@ -1,3 +1,3 @@
-const filesystem = require("./modules/filesystem");
+import { copiar } from "./modules/filesystem.js";
 
-filesystem.copiar("./entrada.txt","./salida.txt");
+copiar("./entrada.txt","./salida.txt");

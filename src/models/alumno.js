@@ -7,4 +7,4 @@ class Alumno {
 
 }
 
-module.exports = Alumno;
+export { Alumno };

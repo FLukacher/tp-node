@@ -1,6 +1,5 @@
 
-
-const fs = require("fs");
+import fs from "fs";
 
 function copiar(origen, destino){
 
@@ -17,6 +16,4 @@ function copiar(origen, destino){
 }
 
 
-module.exports = {
-    copiar
-};
+export {copiar}

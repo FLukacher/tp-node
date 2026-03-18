@@ -12,10 +12,4 @@ const multiplicar = (a,b) => a*b;
 
 const dividir = (a,b) => a/b;
 
-module.exports = {
- PI,
- sumar,
- restar,
- multiplicar,
- dividir
-};
+export { PI, sumar, restar, multiplicar, dividir };
